@@ -14,7 +14,7 @@ interface FormFieldProps<T extends FieldValues> {
   label: string;
   placeholder?: string;
   type?: "text" | "email" | "password";
-}
+} 
 
 const FormField = <T extends FieldValues>({
   control,
